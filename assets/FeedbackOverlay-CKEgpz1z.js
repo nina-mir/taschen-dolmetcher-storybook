@@ -1,5 +1,0 @@
-import{j as e}from"./jsx-runtime-D_zvdyIk.js";const m=({isVisible:l,backgroundImgUrl:t,messageText:r,captionText:a="Wrong Answer!",ariaLabel:o="Answer feedback",containerClassName:s=`
-      absolute 
-      inset-0 flex flex-col items-center justify-between z-10
-      focus:outline-none
-    `,messageClassName:n="text-xl md:text-2xl text-soviet-gold bg-red-500/80 p-3 md:self-start rounded",captionClassName:d="bg-black/50 text-white px-4 py-2 rounded-lg font-semibold text-lg backdrop-blur-sm",backgroundStyle:i})=>{if(!l)return null;const c={...{backgroundImage:t?`url(${t})`:void 0,backgroundSize:"contain",backgroundPosition:"center",backgroundRepeat:"no-repeat"},...i};return e.jsxs("section",{role:"alert","aria-live":"assertive","aria-label":o,className:s,style:c,children:[e.jsx("header",{className:n,role:"status","aria-label":"Answer result",children:e.jsx("span",{className:"font-semibold",children:r})}),a&&e.jsx("footer",{className:d,role:"complementary","aria-label":"Additional feedback information",children:a})]})};export{m as F};
